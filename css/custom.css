@@ -1,1 +1,35 @@
 /* Your custom css code goes here */
+.multiple {
+    background-color: rgb(219, 161, 14);
+}
+
+.probootstrap-header-top {
+    background-color: rgb(219, 161, 14);
+}
+
+.probootstrap-hero.probootstrap-hero-colored {
+    background: #030361;
+}
+
+.probootstrap-showcase-nav ul li.active>a {
+    color: #030361;
+    padding-left: 0px;
+    display: block;
+}
+
+.probootstrap-section.probootstrap-section-colored {
+    background: #030361;
+}
+
+.probootstrap-cta {
+    padding: 3em 0;
+    background: #030361;
+    color: #ffffff;
+}
+
+.container {
+    padding-right: 0px;
+    padding-left: 67px;
+    margin-right: 4px;
+    margin-left: auto
+}

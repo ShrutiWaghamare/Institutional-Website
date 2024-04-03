@@ -126,10 +126,11 @@ a:active {
   margin-bottom: 0;
 }
 
+
 .probootstrap-page-wrapper {
   max-width: 1500px;
   margin: 0 auto;
-  background: rgb(219, 161, 14);
+  background: white;
 }
 
 @media screen and (max-width: 1500px) {
@@ -1036,9 +1037,9 @@ only screen and (min-resolution: 2dppx) {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.probootstrap-section.probootstrap-section-colored {
+/* .probootstrap-section.probootstrap-section-colored {
   background: #6a41ed;
-}
+} */
 
 .probootstrap-section.probootstrap-section-colored .section-heading h2 {
   color: white;
@@ -1115,7 +1116,7 @@ only screen and (min-resolution: 2dppx) {
 
 .probootstrap-cta {
   padding: 3em 0;
-  background: #6a41ed;
+  background: #030361;
   color: #ffffff;
 }
 
