@@ -1,8 +1,8 @@
 /* Your custom css code goes here */
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 2000px) {
     .probootstrap-page-wrapper {
-        max-width: 1265px;
+        max-width: 2000px;
     }
 
     .probootstrap-page-wrapper .container {
@@ -14,8 +14,42 @@
     background-color: rgb(219, 161, 14);
 }
 
+/* header */
+
+/* probootstrap-top-quick-contact-info {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 7em;
+    font-size: 14px;
+} */
+
+.row {
+    margin-right: -102px;
+    margin-left: -90px;
+}
+
+.probootstrap-top-quick-contact-info {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 1.4rem;
+}
+
 .probootstrap-header-top {
+    font-size: 1, 5rem;
     background-color: rgb(219, 161, 14);
+    justify-content: space-evenly;
+}
+
+probootstrap-navbar {
+    border: none;
+    margin-left: 47px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    background: #ffffff;
+    -webkit-transition: .3s all;
+    transition: .3s all;
 }
 
 .probootstrap-hero.probootstrap-hero-colored {
@@ -56,9 +90,25 @@
 
 /* footer */
 .probootstrap-footer {
-    
     padding: 17px 0px;
     padding-bottom: 0;
     background: #000000;
     color: rgba(255, 255, 255, 0.9);
+}
+
+.probootstrap-bg .container {
+    padding-right: 0px;
+    padding-left: 30px;
+    margin-right: 4px;
+    margin-left: 130px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+
+.probootstrap-bg .col-md-5 {
+    padding-left: 98px;
+}
+
+.probootstrap-bg .col-md-4 {
+    padding-left: 76px;
 }
