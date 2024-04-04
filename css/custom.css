@@ -1,4 +1,15 @@
 /* Your custom css code goes here */
+
+@media screen and (max-width: 1500px) {
+    .probootstrap-page-wrapper {
+        max-width: 1265px;
+    }
+
+    .probootstrap-page-wrapper .container {
+        max-width: 1000px;
+    }
+}
+
 .multiple {
     background-color: rgb(219, 161, 14);
 }
@@ -27,9 +38,27 @@
     color: #ffffff;
 }
 
-.container {
+.probootstrap-bg .container {
     padding-right: 0px;
     padding-left: 67px;
     margin-right: 4px;
     margin-left: auto
+}
+
+.probootstrap-navbar {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    /* Ensure the navigation bar is above other content  */
+}
+
+
+/* footer */
+.probootstrap-footer {
+    
+    padding: 17px 0px;
+    padding-bottom: 0;
+    background: #000000;
+    color: rgba(255, 255, 255, 0.9);
 }
