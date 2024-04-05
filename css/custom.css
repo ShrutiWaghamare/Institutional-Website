@@ -1,5 +1,11 @@
 /* Your custom css code goes here */
 
+*{
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+
+}
+
 @media screen and (max-width: 2000px) {
     .probootstrap-page-wrapper {
         max-width: 2000px;
@@ -23,6 +29,19 @@
     font-size: 14px;
 } */
 
+#navbar-collapse li a:hover{
+    color:rgb(219, 161, 14);
+
+}
+
+#navbar-collapse ul li{
+ font-weight: 600;
+ font-size: 3rem;
+}
+
+.topnav{
+    border-bottom:1px solid black;
+}
 .row {
     margin-right: -102px;
     margin-left: -90px;
