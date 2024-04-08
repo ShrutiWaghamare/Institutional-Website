@@ -94,12 +94,12 @@ a:active {
   font-weight: 300;
 }
 
-.navbar-brand img{
-  height:8vh;
-  width:auto;
+.navbar-brand img {
+  height: 8vh;
+  width: auto;
   position: absolute;
-  top:-17%;
-  
+  top: -17%;
+
 }
 
 @media screen and (max-width: 768px) {
@@ -544,7 +544,7 @@ only screen and (min-resolution: 2dppx) {
     position: relative;
     width: 160px;
     height: 43px;
-  
+
     background-color: white;
   }
 }

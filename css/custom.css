@@ -148,3 +148,10 @@
 .probootstrap-bg .col-md-4 {
     padding-left: 76px;
 }
+
+
+/* ********** Contact ************* */
+.probootstrap-gutter0>div[class*='col-'] {
+    padding-right: 90px;
+    padding-left: 40px;
+}
