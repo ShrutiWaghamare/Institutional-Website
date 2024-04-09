@@ -524,6 +524,7 @@ a:active {
   font-size: 30px;
   text-transform: uppercase;
   background-color: white;
+  background-color: white;
   top: 24px;
   position: relative;
   width: 160px;
@@ -553,8 +554,7 @@ only screen and (min-resolution: 192dpi),
 only screen and (min-resolution: 2dppx) {
   .probootstrap-navbar .navbar-brand {
     position: relative;
-    width: 160px;
-    height: 43px;
+
 
     background-color: white;
   }
