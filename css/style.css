@@ -13,8 +13,20 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/Nunito/Nunito-Italic-VariableFont_wght.ttf");
+  src: url("../fonts/Nunito/Nunito-VariableFont_wght.ttf");
+}
+* {
+  font-family: "Nunito", sans-serif;
+ 
+}
 html {
   overflow-x: hidden;
+}
+.navbar-navbar-default-probootstrap-navbar{
+  border-bottom: 1px solid black;
 }
 
 /* .probootstrap-header-top .container .row {
@@ -26,7 +38,7 @@ body {
   color: #8b8e94;
   line-height: 28px;
   font-size: 15px;
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 h1,
@@ -37,7 +49,7 @@ h5,
 h6 {
   color: #181920;
   line-height: 1.5;
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 300;
   margin: 0 0 30px 0;
 }
@@ -94,12 +106,11 @@ a:active {
   font-weight: 300;
 }
 
-.navbar-brand img {
-  height: 8vh;
-  width: auto;
-  position: absolute;
-  top: -17%;
 
+#navbar-collapse ul li a{
+  font-weight: 800;
+  font-size: 1.8rem;
+  /* font-family:"Nunito", sans-serif; */
 }
 
 @media screen and (max-width: 768px) {
@@ -387,7 +398,7 @@ a:active {
 }
 
 .probootstrap-navbar .dropdown>a:before {
-  font-family: 'icomoon';
+  font-family:"Nunito", sans-serif;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -635,7 +646,7 @@ only screen and (min-resolution: 2dppx) {
 }
 
 .probootstrap-navbar .dropdown-submenu>a:before {
-  font-family: 'icomoon';
+  font-family: "Nunito", sans-serif;
   speak: none;
   font-style: normal;
   font-weight: normal;

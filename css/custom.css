@@ -55,15 +55,31 @@
     font-size: 3rem;
 }
 
-.topnav {
-    border-bottom: 15px solid black;
+.topnav{
+    border-bottom: 1px solid black;
 }
 
+  .navbar-brand img{
+    position:relative;
+    top:2%;
+    height:100%;
+    
+  }
+
+.learn:hover{
+    background-color: rgb(4, 170, 4);
+    transform: scale(1.2);
+}
+.probootstrap-section.probootstrap-section-colored{
+    padding:6rem
+}
 .row {
     margin-right: -102px;
     margin-left: -90px;
 }
-
+.btn-video:hover{
+    transform: scale(1.1);
+}
 .probootstrap-top-quick-contact-info {
     padding-top: 7px;
     padding-bottom: 7px;
