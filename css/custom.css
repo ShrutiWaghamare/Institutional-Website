@@ -40,9 +40,9 @@
 
 }
 
-#navbar-collapse ul li {
+#navbar-collapse ul li a{
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 1.8rem;
 }
 
 .topnav{
@@ -51,8 +51,8 @@
 
 .navbar-brand img{
     position:relative;
-    top:2%;
-    height:100%;
+     top:-20.5%; 
+    height:150%;
     
   }
 
@@ -160,4 +160,41 @@
 .probootstrap-gutter0>div[class*='col-'] {
     padding-right: 90px;
     padding-left: 40px;
+}
+
+
+@keyframes mob {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+
+.fixed{
+    display: flex;
+    width:100vw;
+}
+.probootstrap-header-top{
+    width:100vw;
+}
+.probootstrap-header-top span a{
+    color: black;
+}
+.probootstrap-header-top span i{
+    /* color:white */
+}
+.probootstrap-header-top{
+    animation-name: mob;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.probootstrap-header-top2{
+    animation-name: mob;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
