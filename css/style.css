@@ -18,20 +18,14 @@
   src: url("../fonts/Nunito/Nunito-Italic-VariableFont_wght.ttf");
   src: url("../fonts/Nunito/Nunito-VariableFont_wght.ttf");
 }
-
 * {
   font-family: "Nunito", sans-serif;
-
+ 
 }
-
 html {
   overflow-x: hidden;
 }
 .navbar-navbar-default-probootstrap-navbar{
-  border-bottom: 1px solid black;
-}
-
-.navbar-navbar-default-probootstrap-navbar {
   border-bottom: 1px solid black;
 }
 
@@ -45,7 +39,6 @@ body {
   line-height: 28px;
   font-size: 15px;
   font-family: "Nunito", sans-serif;
-  font-family: "Nunito", sans-serif;
 }
 
 h1,
@@ -56,7 +49,6 @@ h5,
 h6 {
   color: #181920;
   line-height: 1.5;
-  font-family: "Nunito", sans-serif;
   font-family: "Nunito", sans-serif;
   font-weight: 300;
   margin: 0 0 30px 0;
@@ -115,8 +107,8 @@ a:active {
 }
 
 
-#navbar-collapse ul li a {
-  font-weight: 500;
+#navbar-collapse ul li a{
+  font-weight: 800;
   font-size: 1.8rem;
   /* font-family:"Nunito", sans-serif; */
 }
@@ -407,7 +399,6 @@ a:active {
 
 .probootstrap-navbar .dropdown>a:before {
   font-family:"Nunito", sans-serif;
-  font-family: "Nunito", sans-serif;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -534,7 +525,6 @@ a:active {
   text-transform: uppercase;
   background-color: white;
   background-color: white;
-  background-color: white;
   top: 24px;
   position: relative;
   width: 160px;
@@ -564,7 +554,6 @@ only screen and (min-resolution: 192dpi),
 only screen and (min-resolution: 2dppx) {
   .probootstrap-navbar .navbar-brand {
     position: relative;
-
 
 
     background-color: white;
@@ -657,7 +646,6 @@ only screen and (min-resolution: 2dppx) {
 }
 
 .probootstrap-navbar .dropdown-submenu>a:before {
-  font-family: "Nunito", sans-serif;
   font-family: "Nunito", sans-serif;
   speak: none;
   font-style: normal;
