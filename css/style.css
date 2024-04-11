@@ -1061,7 +1061,8 @@ only screen and (min-resolution: 2dppx) {
 } */
 
 .probootstrap-section.probootstrap-section-colored .section-heading h2 {
-  color: white;
+  color:white;
+
 }
 
 .probootstrap-section.probootstrap-section-colored .section-heading p {
