@@ -53,12 +53,15 @@
     position: relative;
     top: -20.5%;
     height: 150%;
+    right:45%;
 
 }
-
+.learn{
+    transition: 0.3s linear;
+}
 .learn:hover {
     background-color: rgb(4, 170, 4);
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .probootstrap-section.probootstrap-section-colored {
@@ -239,4 +242,41 @@
     width: 70px;
     position: relative;
     top: 4px;
+}
+
+#list li{
+    transition: 0.3s linear;
+}
+#list li:hover{
+    transform: scale(1.1);
+}
+
+#test{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+}
+#contest{
+    margin: 0;
+    padding: 0;
+}
+
+#foot{
+    width: 80rem;
+    /* background-color: yellow; */
+    margin: 0;
+    padding: 0;
+   
+}
+
+#rowfoot{
+    /* background-color: red; */
+    margin-left:3rem;
+}
+
+#course{
+    /* background-color: violet; */
+    height:80vh;
+    margin-bottom: 2rem;
 }

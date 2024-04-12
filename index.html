@@ -23,6 +23,7 @@
     content="free website templates, free bootstrap themes, free template, free bootstrap, free website template"> -->
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700|Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
   <link rel="stylesheet" href="css/styles-merged.css">
   <link rel="stylesheet" href="css/style.min.css">
   <link rel="stylesheet" href="css/style.css">
@@ -35,7 +36,7 @@
 </head>
 
 <body>
-
+<div id="main">
   <div class="probootstrap-search" id="probootstrap-search">
     <a href="#" class="probootstrap-close js-probootstrap-close"><i class="icon-cross"></i></a>
     <form action="#">
@@ -309,7 +310,7 @@
       class="probootstrap-section probootstrap-section-colored probootstrap-bg probootstrap-custom-heading probootstrap-tab-section"
       id="blue" style="background-image: url(img/slider_2.jpg)">
       <div class="container" id="cont">
-        <div class="row" style="display:flex;align-items: center;justify-content: center;">
+        <div class="row" id="rowid" style="display:flex;align-items: center;justify-content: center;">
           <div class="col-md-12 text-center section-heading probootstrap-animate">
             <h2 align="center" class="mb0">Highlights</h2>
           </div>
@@ -323,7 +324,7 @@
       </div>
     </section>
 
-    <section class="probootstrap-section probootstrap-section">
+    <section class="probootstrap-section probootstrap-section" id="course">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -333,7 +334,7 @@
               <div id="featured-news" class="tab-pane fade in active">
                 <div class="row">
                   <div class="col-md-12">
-                    <div class="owl-carousel" id="owl1">
+                    <div class="owl-carousel" id="owl1" style="margin-bottom:3rem;">
                       <div class="item">
                         <a href="#" class="probootstrap-featured-news-box">
                           <figure class="probootstrap-media"><img src="img/img_sm_3.jpg"
@@ -393,7 +394,7 @@
                 <!-- END row -->
                 <div class="row">
                   <div class="col-md-12 text-center">
-                    <p><a href="#" class="btn btn-primary">View all news</a></p>
+                    <p><a href="#" class="learn btn btn-primary" style="margin-top: 1px;">View all news</a></p>
                   </div>
                 </div>
               </div>
@@ -470,7 +471,7 @@
       </div>
     </section>
 
-    <section class="probootstrap-section">
+    <section class="probootstrap-section" style="padding-bottom:0">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -486,7 +487,7 @@
                 <p>Laboriosam pariatur modi praesentium deleniti molestiae officiis atque numquam quos quis nisi
                   voluptatum architecto rerum error.</p>
                 <!-- <p><a href="#" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">12,582 students enrolled</span></p> -->
-                <p><a href="./9cbsecourse.html" class="btn btn-primary">Details</a></p>
+                <p><a href="./9cbsecourse.html" class="learn btn btn-primary">Details</a></p>
               </div>
             </div>
 
@@ -502,7 +503,7 @@
                 <p>Laboriosam pariatur modi praesentium deleniti molestiae officiis atque numquam quos quis nisi
                   voluptatum architecto rerum error.</p>
                 <!-- <p><a href="#" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">12,582 students enrolled</span></p> -->
-                <p><a href="./9statecourse.html" class="btn btn-primary">Details</a></p>
+                <p><a href="./9statecourse.html" class="learn btn btn-primary">Details</a></p>
               </div>
             </div>
 
@@ -520,7 +521,7 @@
                 <p>Laboriosam pariatur modi praesentium deleniti molestiae officiis atque numquam quos quis nisi
                   voluptatum architecto rerum error.</p>
                 <!-- <p><a href="#" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">12,582 students enrolled</span></p> -->
-                <p><a href="./10thcbsecourse.html" class="btn btn-primary">Details</a></p>
+                <p><a href="./10thcbsecourse.html" class="learn btn btn-primary">Details</a></p>
               </div>
             </div>
 
@@ -536,7 +537,7 @@
                 <p>Laboriosam pariatur modi praesentium deleniti molestiae officiis atque numquam quos quis nisi
                   voluptatum architecto rerum error.</p>
                 <!-- <p><a href="#" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">12,582 students enrolled</span></p> -->
-                <p><a href="./10statecourse.html" class="btn btn-primary">Details</a></p>
+                <p><a href="./10statecourse.html" class="learn btn btn-primary">Details</a></p>
               </div>
             </div>
 
@@ -557,7 +558,7 @@
                 <p>Laboriosam pariatur modi praesentium deleniti molestiae officiis atque numquam quos quis nisi
                   voluptatum architecto rerum error.</p>
                 <!-- <p><a href="#" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">12,582 students enrolled</span></p> -->
-                <p><a href="./11statesourse.html" class="btn btn-primary">Details</a></p>
+                <p><a href="./11statesourse.html" class="learn btn btn-primary">Details</a></p>
               </div>
             </div>
 
@@ -591,7 +592,7 @@
                 <p>Laboriosam pariatur modi praesentium deleniti molestiae officiis atque numquam quos quis nisi
                   voluptatum architecto rerum error.</p>
                 <!-- <p><a href="#" class="btn btn-primary">Enroll now</a> <span class="enrolled-count">12,582 students enrolled</span></p> -->
-                <p><a href="./12statecourse.html" class="btn btn-primary">Details</a></p>
+                <p><a href="./12statecourse.html" class="learn btn btn-primary">Details</a></p>
               </div>
             </div>
 
@@ -703,9 +704,9 @@
 
       </div>
     </section>
-    <section class="probootstrap-section probootstrap-bg probootstrap-section-colored probootstrap-testimonial"
+    <section class="probootstrap-section probootstrap-bg probootstrap-section-colored probootstrap-testimonial" id="test"
       style="background-image: url(img/slider_4.jpg);">
-      <div class="container">
+      <div class="container" id="contest">
         <div class="row">
           <div class="col-md-6 col-md-offset-3 text-center section-heading probootstrap-animate">
             <h2>Alumni Testimonial</h2>
@@ -833,7 +834,7 @@
         <div class="row">
           <div class="col-md-12">
             <h2 class="probootstrap-animate" data-animate-effect="fadeInRight">Get your admission now!</h2>
-            <a href="#" role="button" class="btn btn-primary btn-lg btn-ghost probootstrap-animate"
+            <a href="#" role="button" class="learn btn btn-primary btn-lg btn-ghost probootstrap-animate"
               data-animate-effect="fadeInLeft">Enroll</a>
           </div>
         </div>
@@ -896,9 +897,9 @@
 
       </div>
 
-      <div class="probootstrap-copyright">
-        <div class="container">
-          <div class="row">
+      <div class="probootstrap-copyright" style="display:flex;align-items: center;">
+        <div class="container" id="foot">
+          <div class="row" id="rowfoot">
             <!-- <div class="col-md-8 text-left">
               <p>&copy; 2017 <a href="https://probootstrap.com/">ProBootstrap:Enlight</a>. All Rights Reserved. Designed
                 &amp; Developed with <i class="icon icon-heart"></i> by <a
@@ -920,8 +921,9 @@
     </footer>
 
   </div>
+</div>
   <!-- END wrapper -->
-
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
     integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>

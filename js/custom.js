@@ -2,6 +2,9 @@ jQuery(document).ready(function() {
 	
 	"use strict";
 	// Your custom js code goes here.
+	
+
+
 	gsap.from("#navbar-collapse ul li",{
 		duration:1,
 		y:25,
